@@ -1,0 +1,37 @@
+[
+  {
+    "nome": "Xis Salada",
+    "valor": 20.00,
+    "descricao": "(bife hambúrguer, alface, ovo, maioneses, ketchup, mostarda, batata palha, tomate, presunto, queijo, milho e ervilha)"
+  },
+  {
+    "nome": "Xis Frango",
+    "valor": 24.00,
+    "descricao": "(frango, alface, ovo, maioneses, ketchup, mostarda, batata palha, tomate, presunto, queijo, milho e ervilha)"
+  },
+  {
+    "nome": "Xis Bacon",
+    "valor": 26.00,
+    "descricao": "(bacon, alface, ovo, maioneses, ketchup, mostarda, batata palha, tomate, presunto, queijo, milho e ervilha)"
+  },
+  {
+    "nome": "Xis bagunça",
+    "valor": 30.00,
+    "descricao": "(coração, carne de frango, carne de rês, alface, ovo, maioneses, ketchup, mostarda, batata palha, tomate, presunto, queijo, milho e ervilha)"
+  },
+  {
+    "nome": "Xis calabresa",
+    "valor": 25.00,
+    "descricao": "(calabresa, alface, ovo, maioneses, ketchup, mostarda, batata palha, tomate, presunto, queijo, milho e ervilha)"
+  },
+  {
+    "nome": "Xis coração",
+    "valor": 30.00,
+    "descricao": "(coração, alface, ovo, maioneses, ketchup, mostarda, batata palha, tomate, presunto, queijo, milho e ervilha)"
+  },
+  {
+    "nome": "Xis tudo",
+    "valor": 30.00,
+    "descricao": "(coracao, carne de rês, carne de frango, calabresa, bacon, presunto, quiejo, milho, ervilha, batata palha, tomate, alface, maionese, ketchup e mostarda)"
+  }
+]

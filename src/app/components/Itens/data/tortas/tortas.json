@@ -1,0 +1,72 @@
+[
+  {
+    "nome": "Marta Rocha",
+    "valor": 45.00,
+    "descricao": "Massa branca e de chocolate, merengue, nozes, pêssego ou ameixas, nata batida, doce de leite e baba de moça (creme de leite cond.)."
+  },
+  {
+    "nome": "Morango Moreno",
+    "valor": 48.00,
+    "descricao": "Massa de chocolate, morangos, brigadeiro e nata."
+  },
+  {
+    "nome": "Abacaxi",
+    "valor": 45.00,
+    "descricao": "Massa branca com creme e abacaxi."
+  },
+  {
+    "nome": "Abacaxi c/ coco",
+    "valor": 45.00,
+    "descricao": "Massa branca, abacaxi, creme com coco."
+  },
+  {
+    "nome": "Brigadeiro",
+    "valor": 45.00,
+    "descricao": "Massa de chocolate com brigadeiro."
+  },
+  {
+    "nome": "Dois Amores",
+    "valor": 45.00,
+    "descricao": "Massa branca e de chocolate, com brigadeiro branco e de chocolate."
+  },
+  {
+    "nome": "Musse de Chocolate",
+    "valor": 45.00,
+    "descricao": "Massa de chocolate com musse de chocolate."
+  },
+  {
+    "nome": "Musse de Ninho",
+    "valor": 55.00,
+    "descricao": "Massa branca com musse de ninho. (Adicional: nutella)"
+  },
+  {
+    "nome": "Morango",
+    "valor": 48.00,
+    "descricao": "Massa branca, chantilly, morango e merengue."
+  },
+  {
+    "nome": "Julia",
+    "valor": 45.00,
+    "descricao": "Massa branca, merengue, branquinho, chantilly e brigadeiro."
+  },
+  {
+    "nome": "Prestígio",
+    "valor": 45.00,
+    "descricao": "Massa branca e de chocolate, coco c/ brigadeiro branco e de chocolate."
+  },
+  {
+    "nome": "Floresta Negra",
+    "valor": 55.00,
+    "descricao": "Massa de Chocolate, musse de chocolate branco e cereja."
+  },
+  {
+    "nome": "Bombom c/ creme",
+    "valor": 45.00,
+    "descricao": "Massa branca, creme, bombom e nata."
+  },
+  {
+    "nome": "Bombom c/ musse",
+    "valor": 45.00,
+    "descricao": "Massa de chocolate, musse de chocolate e bombom."
+  }
+]

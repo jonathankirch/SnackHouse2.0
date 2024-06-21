@@ -1,0 +1,112 @@
+[
+  {
+    "nome": "Risoles",
+    "valor": 1.10,
+    "descricao": ""
+  },
+  {
+    "nome": "Coxinha",
+    "valor": 1.10,
+    "descricao": ""
+  },
+  {
+    "nome": "Croquete",
+    "valor": 1.15,
+    "descricao": ""
+  },
+  {
+    "nome": "Bolinha queijo",
+    "valor": 1.05,
+    "descricao": ""
+  },
+  {
+    "nome": "Enroladinho de salsicha",
+    "valor": 1.10,
+    "descricao": ""
+  },
+  {
+    "nome": "Mini pizza",
+    "valor": 1.50,
+    "descricao": ""
+  },
+  {
+    "nome": "Mini hambúrguer",
+    "valor": 1.60,
+    "descricao": ""
+  },
+  {
+    "nome": "Mini folhado",
+    "valor": 1.50,
+    "descricao": ""
+  },
+  {
+    "nome": "Mini fragotini",
+    "valor": 1.50,
+    "descricao": ""
+  },
+  {
+    "nome": "Mini empadinha",
+    "valor": 1.50,
+    "descricao": ""
+  },
+  {
+    "nome": "Kibe",
+    "valor": 1.10,
+    "descricao": ""
+  },
+  {
+    "nome": "Mini pastel caseiro",
+    "valor": 1.50,
+    "descricao": ""
+  },
+  {
+    "nome": "Mini cachorrinho",
+    "valor": 1.50,
+    "descricao": ""
+  },
+  {
+    "nome": "Mini croissant",
+    "valor": 1.40,
+    "descricao": ""
+  },
+  {
+    "nome": "Torta fria (unidade)",
+    "valor": 48.00,
+    "descricao": ""
+  },
+  {
+    "nome": "Prenssadinho",
+    "valor": 1.10,
+    "descricao": ""
+  },
+  {
+    "nome": "Mini hambúrguer italiano",
+    "valor": 1.90,
+    "descricao": ""
+  },
+  {
+    "nome": "Palito de frios",
+    "valor": 1.20,
+    "descricao": ""
+  },
+  {
+    "nome": "Canudinho",
+    "valor": 1.45,
+    "descricao": ""
+  },
+  {
+    "nome": "Mini pão de queijo",
+    "valor": 1.10,
+    "descricao": ""
+  },
+  {
+    "nome": "Mini pastel de forno",
+    "valor": 1.30,
+    "descricao": ""
+  },
+  {
+    "nome": "Canoinha de frios",
+    "valor": 1.20,
+    "descricao": ""
+  }
+]

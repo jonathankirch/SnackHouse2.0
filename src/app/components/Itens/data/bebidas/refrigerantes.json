@@ -1,0 +1,72 @@
+[
+  {
+    "nome": "Pepsi 350ml",
+    "valor": 4.50,
+    "descricao": ""
+  },
+  {
+    "nome": "Fanta Laranja 350ml",
+    "valor": 4.50,
+    "descricao": ""
+  },
+  {
+    "nome": "Fanta Uva 350ml",
+    "valor": 4.50,
+    "descricao": ""
+  },
+  {
+    "nome": "Sprite 350ml",
+    "valor": 4.50,
+    "descricao": ""
+  },
+  {
+    "nome": "Coca Cola 350ml",
+    "valor": 5.00,
+    "descricao": ""
+  },
+  {
+    "nome": "Fruki 350ml",
+    "valor": 4.00,
+    "descricao": ""
+  },
+  {
+    "nome": "Coca Zero Lata",
+    "valor": 5.00,
+    "descricao": ""
+  },
+  {
+    "nome": "Coca Cola 2L",
+    "valor": 12.00,
+    "descricao": ""
+  },
+  {
+    "nome": "Coca Cola 1.5L",
+    "valor": 10.00,
+    "descricao": ""
+  },
+  {
+    "nome": "Fruki 2L",
+    "valor": 10.00,
+    "descricao": ""
+  },
+  {
+    "nome": "Charrua 2L",
+    "valor": 10.00,
+    "descricao": ""
+  },
+  {
+    "nome": "Pepsi 1.5L",
+    "valor": 9.00,
+    "descricao": ""
+  },
+  {
+    "nome": "Pepsi 2L",
+    "valor": 11.00,
+    "descricao": ""
+  },
+  {
+    "nome": "Redbull",
+    "valor": 12.00,
+    "descricao": ""
+  }
+]

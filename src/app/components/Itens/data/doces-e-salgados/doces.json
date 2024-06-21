@@ -1,0 +1,102 @@
+[
+  {
+    "nome": "Brigadeiro",
+    "valor": 1.00,
+    "descricao": ""
+  },
+  {
+    "nome": "Branquinho",
+    "valor": 1.00,
+    "descricao": ""
+  },
+  {
+    "nome": "Beijinho",
+    "valor": 1.00,
+    "descricao": ""
+  },
+  {
+    "nome": "Crispy",
+    "valor": 1.20,
+    "descricao": ""
+  },
+  {
+    "nome": "Flocos",
+    "valor": 1.20,
+    "descricao": ""
+  },
+  {
+    "nome": "Coco queimado",
+    "valor": 1.25,
+    "descricao": ""
+  },
+  {
+    "nome": "Morango",
+    "valor": 1.25,
+    "descricao": ""
+  },
+  {
+    "nome": "Casadinho",
+    "valor": 1.00,
+    "descricao": ""
+  },
+  {
+    "nome": "Mini Churros",
+    "valor": 1.25,
+    "descricao": ""
+  },
+  {
+    "nome": "Sensação",
+    "valor": 1.25,
+    "descricao": ""
+  },
+  {
+    "nome": "Ninho c/ Nutella",
+    "valor": 1.25,
+    "descricao": ""
+  },
+  {
+    "nome": "Morango c/ Nutella",
+    "valor": 1.40,
+    "descricao": ""
+  },
+  {
+    "nome": "Amendoim",
+    "valor": 1.10,
+    "descricao": ""
+  },
+  {
+    "nome": "Bombom amendoim",
+    "valor": 2.00,
+    "descricao": ""
+  },
+  {
+    "nome": "Bombom Ferrero Rocher",
+    "valor": 2.15,
+    "descricao": ""
+  },
+  {
+    "nome": "Camafeu",
+    "valor": 2.15,
+    "descricao": ""
+  },
+  {
+    "nome": "Confete",
+    "valor": 1.40,
+    "descricao": ""
+  },
+  {
+    "nome": "Torta bolacha pequena",
+    "valor": 39.00,
+    "descricao": ""
+  },
+  {
+    "nome": "Torta bolacha Grande",
+    "valor": 58.00,
+    "descricao": ""
+  },
+  {
+    "nome": "Mini Churros (frito c/ mumu dentro)",
+    "valor": 1.10,
+    "descricao": ""
+  }
+]

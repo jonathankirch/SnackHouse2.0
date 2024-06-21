@@ -1,0 +1,42 @@
+[
+  {
+    "nome": "Amstel 350ml",
+    "valor": 9.00,
+    "descricao": ""
+  },
+  {
+    "nome": "Budweiser Long Neck",
+    "valor": 9.00,
+    "descricao": ""
+  },
+  {
+    "nome": "Heineken Long Neck",
+    "valor": 9.50,
+    "descricao": ""
+  },
+  {
+    "nome": "Heineken 350ml",
+    "valor": 9.00,
+    "descricao": ""
+  },
+  {
+    "nome": "Brahma 350ml",
+    "valor": 6.00,
+    "descricao": ""
+  },
+  {
+    "nome": "Brahma 473ml",
+    "valor": 8.00,
+    "descricao": ""
+  },
+  {
+    "nome": "Polar 350ml",
+    "valor": 6.00,
+    "descricao": ""
+  },
+  {
+    "nome": "Polar 473ml",
+    "valor": 8.00,
+    "descricao": ""
+  }
+]
