@@ -24,6 +24,7 @@ export default function Bebidas() {
                 nome={item.nome}
                 descricao={item.descricao}
                 valor={item.valor}
+                quantidade={item.quantidade}
               />
             </article>
           ))}
@@ -38,6 +39,7 @@ export default function Bebidas() {
                 nome={item.nome}
                 descricao={item.descricao}
                 valor={item.valor}
+                quantidade={item.quantidade}
               />
             </article>
           ))}
@@ -52,6 +54,7 @@ export default function Bebidas() {
                 nome={item.nome}
                 descricao={item.descricao}
                 valor={item.valor}
+                quantidade={item.quantidade}
               />
             </article>
           ))}

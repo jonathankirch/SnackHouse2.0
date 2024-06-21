@@ -26,6 +26,7 @@ export default function Lanches() {
                 nome={item.nome}
                 descricao={item.descricao}
                 valor={item.valor}
+                quantidade={item.quantidade}
               />
             </article>
           ))}
@@ -42,6 +43,7 @@ export default function Lanches() {
                 nome={item.nome}
                 descricao={item.descricao}
                 valor={item.valor}
+                quantidade={item.quantidade}
               />
             </article>
           ))}
@@ -58,6 +60,7 @@ export default function Lanches() {
                 nome={item.nome}
                 descricao={item.descricao}
                 valor={item.valor}
+                quantidade={item.quantidade}
               />
             </article>
           ))}
@@ -74,6 +77,7 @@ export default function Lanches() {
                 nome={item.nome}
                 descricao={item.descricao}
                 valor={item.valor}
+                quantidade={item.quantidade}
               />
             </article>
           ))}

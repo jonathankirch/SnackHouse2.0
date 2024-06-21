@@ -2,11 +2,13 @@
   {
     "nome": "Água Mineral c/Gas",
     "valor": 3.00,
-    "descricao": " "
+    "descricao": " ",
+    "quantidade": 1
   },
   {
     "nome": "Água Mineral s/Gas",
     "valor": 3.00,
-    "descricao": " "
+    "descricao": " ",
+    "quantidade": 1
   }
 ]

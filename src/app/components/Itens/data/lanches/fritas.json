@@ -2,11 +2,13 @@
   {
     "nome": "Fritas",
     "valor": 18.00,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Fritas 120g",
     "valor": 6.50,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   }
 ]

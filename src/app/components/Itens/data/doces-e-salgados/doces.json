@@ -2,101 +2,121 @@
   {
     "nome": "Brigadeiro",
     "valor": 1.00,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Branquinho",
     "valor": 1.00,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Beijinho",
     "valor": 1.00,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Crispy",
     "valor": 1.20,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Flocos",
     "valor": 1.20,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Coco queimado",
     "valor": 1.25,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Morango",
     "valor": 1.25,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Casadinho",
     "valor": 1.00,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Mini Churros",
     "valor": 1.25,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Sensação",
     "valor": 1.25,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Ninho c/ Nutella",
     "valor": 1.25,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Morango c/ Nutella",
     "valor": 1.40,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Amendoim",
     "valor": 1.10,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Bombom amendoim",
     "valor": 2.00,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Bombom Ferrero Rocher",
     "valor": 2.15,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Camafeu",
     "valor": 2.15,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Confete",
     "valor": 1.40,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Torta bolacha pequena",
     "valor": 39.00,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Torta bolacha Grande",
     "valor": 58.00,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Mini Churros (frito c/ mumu dentro)",
     "valor": 1.10,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   }
 ]

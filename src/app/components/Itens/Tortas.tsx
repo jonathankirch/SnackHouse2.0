@@ -15,6 +15,7 @@ export default function Tortas() {
               nome={item.nome}
               descricao={item.descricao}
               valor={item.valor}
+              quantidade={item.quantidade}
             />
           </article>
         ))}

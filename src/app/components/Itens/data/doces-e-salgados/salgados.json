@@ -2,111 +2,133 @@
   {
     "nome": "Risoles",
     "valor": 1.10,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Coxinha",
     "valor": 1.10,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Croquete",
     "valor": 1.15,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Bolinha queijo",
     "valor": 1.05,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Enroladinho de salsicha",
     "valor": 1.10,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Mini pizza",
     "valor": 1.50,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Mini hambúrguer",
     "valor": 1.60,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Mini folhado",
     "valor": 1.50,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Mini fragotini",
     "valor": 1.50,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Mini empadinha",
     "valor": 1.50,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Kibe",
     "valor": 1.10,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Mini pastel caseiro",
     "valor": 1.50,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Mini cachorrinho",
     "valor": 1.50,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Mini croissant",
     "valor": 1.40,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Torta fria (unidade)",
     "valor": 48.00,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Prenssadinho",
     "valor": 1.10,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Mini hambúrguer italiano",
     "valor": 1.90,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Palito de frios",
     "valor": 1.20,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Canudinho",
     "valor": 1.45,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Mini pão de queijo",
     "valor": 1.10,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Mini pastel de forno",
     "valor": 1.30,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   },
   {
     "nome": "Canoinha de frios",
     "valor": 1.20,
-    "descricao": ""
+    "descricao": "",
+    "quantidade": 1
   }
 ]
