@@ -1,16 +1,21 @@
+'use client'
+
 import Header from './components/Header'
 import Itens from './components/Itens/AllItens'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
-import Provider from './Provider'
 import Cart from './components/Cart/Cart'
 
+import { useModalCart } from '@/app/context/ModalCartContext'
+
 export default function Home() {
+
+  const { isOpen } = useModalCart()
+
   return (
     <>
-      <Provider>
-        {/* <Cart /> */}
-        
+      <Cart />
+      <main className={`${isOpen ? 'blur' : ''}`}>
         <Header />
         <section className="pt-32">
           <hr className="w-3/5 mx-auto border border-yellow-400 rounded-xl" />
@@ -19,7 +24,7 @@ export default function Home() {
               <h1 className="text-6xl font-bold">Snack House</h1>
               <div className="w-3/4 mx-auto bg-gradient-to-r from-black via-red-500 to-yellow-500 h-2 rounded"></div>
               <div className="text-xl mt-10 font-bold text-neutral-700">
-                <h2 className='mb-1 ml '>Aberto</h2>
+                <h2 className="mb-1 ml ">Aberto</h2>
               </div>
             </div>
             <div className="">
@@ -33,11 +38,11 @@ export default function Home() {
           <hr className="w-3/5 mx-auto border border-yellow-400 rounded-xl mb-10" />
         </section>
         <NavBar />
-        <main className="md:w-4/6 mx-auto">
+        <section className="md:w-4/6 mx-auto">
           <Itens />
-        </main>
-        <Footer />
-      </Provider>
+        </section>
+      </main>
+      <Footer />
     </>
   )
 }

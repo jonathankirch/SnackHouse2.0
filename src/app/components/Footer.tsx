@@ -1,8 +1,14 @@
 import { FaInstagram, FaFacebookF } from "react-icons/fa";
 
+import { useModalCart } from '@/app/context/ModalCartContext'
+
+
 export default function Footer() {
+
+  const { isOpen } = useModalCart()
+  
   return (
-    <footer className="bg-stone-50 py-14">
+    <footer  className={`bg-stone-50 py-14 ${isOpen ? 'blur' : ''}`}>
       <div className='flex md:w-2/3 mx-auto pl-36'>
         <div className="w-1/6 mr-14">
             <img src="img/logo-snackhouse.webp" alt="img" className="w-1/2 mx-auto my-5 rounded" />

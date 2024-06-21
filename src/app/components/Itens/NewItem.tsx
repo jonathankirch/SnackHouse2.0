@@ -18,8 +18,9 @@ export default function NewItem({ nome, valor, descricao }: NewItemProps) {
       nome,
       valor,
       descricao,
+      quantidade:  1
     };
-    addItem(newItem);
+  addItem(newItem);
   };
 
   return (
