@@ -3,56 +3,56 @@
     "nome": "Amstel 350ml",
     "valor": 9.00,
     "descricao": "",
-    "img": "/img/itens/bebidas/amstel.png",
+    "img": "/img/amstel.png",
     "quantidade": 1
   },
   {
     "nome": "Budweiser Long Neck",
     "valor": 9.00,
     "descricao": "",
-    "img": "/img/itens/bebidas/budweiser-long.png",
+    "img": "/img/budweiser-long.png",
     "quantidade": 1
   },
   {
     "nome": "Heineken Long Neck",
     "valor": 9.50,
     "descricao": "",
-    "img": "/img/itens/bebidas/heineken-long-neck.webp",
+    "img": "/img/heineken-long-neck.webp",
     "quantidade": 1
   },
   {
     "nome": "Heineken 350ml",
     "valor": 9.00,
     "descricao": "",
-    "img": "/img/itens/bebidas/heineken-350.jpg",
+    "img": "/img/heineken-350.jpg",
     "quantidade": 1
   },
   {
     "nome": "Brahma 350ml",
     "valor": 6.00,
     "descricao": "",
-    "img": "/img/itens/bebidas/brahma.jpeg",
+    "img": "/img/brahma.jpeg",
     "quantidade": 1
   },
   {
     "nome": "Brahma 473ml",
     "valor": 8.00,
     "descricao": "",
-    "img": "/img/itens/bebidas/brahma-473.jpg",
+    "img": "/img/brahma-473.jpg",
     "quantidade": 1
   },
   {
     "nome": "Polar 350ml",
     "valor": 6.00,
     "descricao": "",
-    "img": "/img/itens/bebidas/polar.png",
+    "img": "/img/polar.png",
     "quantidade": 1
   },
   {
     "nome": "Polar 473ml",
     "valor": 8.00,
     "descricao": "",
-    "img": "/img/itens/bebidas/polar-473.png",
+    "img": "/img/polar-473.png",
     "quantidade": 1
   }
 ]

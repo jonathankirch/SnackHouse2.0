@@ -3,14 +3,14 @@
     "nome": "Água Mineral c/Gas",
     "valor": 3.00,
     "descricao": " ",
-    "img": "/img/itens/bebidas/agua-c-gas.jpg",
+    "img": "/img/agua-c-gas.jpg",
     "quantidade": 1
   },
   {
     "nome": "Água Mineral s/Gas",
     "valor": 3.00,
     "descricao": " ",
-    "img": "/img/itens/bebidas/agua-s-gas.jpg",
+    "img": "/img/agua-s-gas.jpg",
     "quantidade": 1
   }
 ]

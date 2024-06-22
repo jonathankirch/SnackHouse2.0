@@ -3,56 +3,56 @@
     "nome": "Risoles",
     "valor": 1.10,
     "descricao": "",
-    "img": "/img/itens/docesSalgados/risoles.jpg",
+    "img": "/img/risoles.jpg",
     "quantidade": 1
   },
   {
     "nome": "Coxinha",
     "valor": 1.10,
     "descricao": "",
-    "img": "/img/itens/docesSalgados/coxinha.jpg",
+    "img": "/img/coxinha.jpg",
     "quantidade": 1
   },
   {
     "nome": "Croquete",
     "valor": 1.15,
     "descricao": "",
-    "img": "/img/itens/docesSalgados/croquete.jpg",
+    "img": "/img/croquete.jpg",
     "quantidade": 1
   },
   {
     "nome": "Bolinha queijo",
     "valor": 1.05,
     "descricao": "",
-    "img": "/img/itens/docesSalgados/bolinha-de-queijo.jpg",
+    "img": "/img/bolinha-de-queijo.jpg",
     "quantidade": 1
   },
   {
     "nome": "Enroladinho de salsicha",
     "valor": 1.10,
     "descricao": "",
-    "img": "/img/itens/docesSalgados/enroladinho.jpg",
+    "img": "/img/enroladinho.jpg",
     "quantidade": 1
   },
   {
     "nome": "Mini pizza",
     "valor": 1.50,
     "descricao": "",
-    "img": "/img/itens/docesSalgados/mini-pizza.jpg",
+    "img": "/img/mini-pizza.jpg",
     "quantidade": 1
   },
   {
     "nome": "Mini hambúrguer",
     "valor": 1.60,
     "descricao": "",
-    "img": "/img/itens/docesSalgados/mini-hamburguer.webp",
+    "img": "/img/mini-hamburguer.webp",
     "quantidade": 1
   },
   {
     "nome": "Mini folhado",
     "valor": 1.50,
     "descricao": "",
-    "img": "/img/itens/docesSalgados/mini-folhado.jpg",
+    "img": "/img/mini-folhado.jpg",
     "quantidade": 1
   },
   {
@@ -66,91 +66,91 @@
     "nome": "Mini empadinha",
     "valor": 1.50,
     "descricao": "",
-    "img": "/img/itens/docesSalgados/mini-empadinha.jpg",
+    "img": "/img/mini-empadinha.jpg",
     "quantidade": 1
   },
   {
     "nome": "Kibe",
     "valor": 1.10,
     "descricao": "",
-    "img": "/img/itens/docesSalgados/kibe.jpg",
+    "img": "/img/kibe.jpg",
     "quantidade": 1
   },
   {
     "nome": "Mini pastel caseiro",
     "valor": 1.50,
     "descricao": "",
-    "img": "/img/itens/docesSalgados/MINI-PASTEIS.png",
+    "img": "/img/MINI-PASTEIS.png",
     "quantidade": 1
   },
   {
     "nome": "Mini cachorrinho",
     "valor": 1.50,
     "descricao": "",
-    "img": "/img/itens/docesSalgados/mini-cachorrinho.jpg",
+    "img": "/img/mini-cachorrinho.jpg",
     "quantidade": 1
   },
   {
     "nome": "Mini croissant",
     "valor": 1.40,
     "descricao": "",
-    "img": "/img/itens/docesSalgados/mini-crossant.jpg",
+    "img": "/img/mini-crossant.jpg",
     "quantidade": 1
   },
   {
     "nome": "Torta fria (unidade)",
     "valor": 48.00,
     "descricao": "",
-    "img": "/img/itens/docesSalgados/torta-fria.jpg",
+    "img": "/img/torta-fria.jpg",
     "quantidade": 1
   },
   {
     "nome": "Prenssadinho",
     "valor": 1.10,
     "descricao": "",
-    "img": "/img/itens/docesSalgados/prenssadinho.jpg",
+    "img": "/img/prenssadinho.jpg",
     "quantidade": 1
   },
   {
     "nome": "Mini hambúrguer italiano",
     "valor": 1.90,
     "descricao": "",
-    "img": "/img/itens/docesSalgados/mini-hamburguer-italiano.jpg",
+    "img": "/img/mini-hamburguer-italiano.jpg",
     "quantidade": 1
   },
   {
     "nome": "Palito de frios",
     "valor": 1.20,
     "descricao": "",
-    "img": "/img/itens/docesSalgados/palito-de-frios.jpg",
+    "img": "/img/palito-de-frios.jpg",
     "quantidade": 1
   },
   {
     "nome": "Canudinho",
     "valor": 1.45,
     "descricao": "",
-    "img": "/img/itens/docesSalgados/canudinho.png",
+    "img": "/img/canudinho.png",
     "quantidade": 1
   },
   {
     "nome": "Mini pão de queijo",
     "valor": 1.10,
     "descricao": "",
-    "img": "/img/itens/docesSalgados/mini-paodqueijo.png",
+    "img": "/img/mini-paodqueijo.png",
     "quantidade": 1
   },
   {
     "nome": "Mini pastel de forno",
     "valor": 1.30,
     "descricao": "",
-    "img": "/img/itens/docesSalgados/mini-pastel-de-forno.jpg",
+    "img": "/img/mini-pastel-de-forno.jpg",
     "quantidade": 1
   },
   {
     "nome": "Canoinha de frios",
     "valor": 1.20,
     "descricao": "",
-    "img": "/img/itens/docesSalgados/canoinha-de-frios.jpg",
+    "img": "/img/canoinha-de-frios.jpg",
     "quantidade": 1
   }
 ]

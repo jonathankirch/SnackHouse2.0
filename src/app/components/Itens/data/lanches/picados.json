@@ -3,35 +3,35 @@
     "nome": "Picadão com batata",
     "valor": 52.00,
     "descricao": "(pepino, queijo, ovo de codorna, coração, calabresinha, carne picada e batata palito)",
-    "img": "/img/itens/lanches/picadao-batata.jpg",
+    "img": "/img/picadao-batata.jpg",
     "quantidade": 1
   },
   {
     "nome": "Picadinho calabresa",
     "valor": 22.00,
     "descricao": "(Pepino, queijo, ovo de codorna, calabresinha)",
-    "img": "/img/itens/lanches/picadinho-calabresa.png",
+    "img": "/img/picadinho-calabresa.png",
     "quantidade": 1
   },
   {
     "nome": "Picado de salsicha",
     "valor": 27.00,
     "descricao": "(pepino, queijo, ovo de codorna, salsicha)",
-    "img": "/img/itens/lanches/picados-salsicha.jpg",
+    "img": "/img/picados-salsicha.jpg",
     "quantidade": 1
   },
   {
     "nome": "Picadão p/ 2 pessoas",
     "valor": 60.00,
     "descricao": "",
-    "img": "/img/itens/lanches/picadao-p2.png",
+    "img": "/img/picadao-p2.png",
     "quantidade": 1
   },
   {
     "nome": "Picadão p/ 3 pessoas",
     "valor": 70.00,
     "descricao": "",
-    "img": "/img/itens/lanches/picadao-p3.png",
+    "img": "/img/picadao-p3.png",
     "quantidade": 1
   }
 ]
