@@ -35,18 +35,18 @@ export default function NewItem({ nome, valor, descricao, img }: NewItemProps) {
   return (
     <>
       <div>
-        {/* <img
-          src="img/Teste.webp"
+        <img
+          src={img}
           alt="img"
           className="object-cover w-full h-full rounded-s-md shadow-md group-hover:shadow-xl"
-        /> */}
-        <Image
+        />
+        {/* <Image
           src={img}
           className="object-cover w-full h-full rounded-s-md shadow-md group-hover:shadow-xl"
           width={500}
           height={500}
           alt={nome}
-        />
+        /> */}
       </div>
       <div className="p-5 col-span-2 relative">
         <h2 className="text-xl font-bold uppercase mb-3">{nome}</h2>
