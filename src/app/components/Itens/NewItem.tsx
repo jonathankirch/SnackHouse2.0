@@ -35,11 +35,6 @@ export default function NewItem({ nome, valor, descricao, img }: NewItemProps) {
   return (
     <>
       <div>
-        {/* <img
-          src={img}
-          alt="img"
-          className="object-cover w-full h-full rounded-s-md shadow-md group-hover:shadow-xl"
-        /> */}
         <Image
           src={img}
           className="object-cover w-full h-full rounded-s-md shadow-md group-hover:shadow-xl"
