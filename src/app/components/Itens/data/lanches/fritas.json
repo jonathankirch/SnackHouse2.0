@@ -3,12 +3,14 @@
     "nome": "Fritas",
     "valor": 18.00,
     "descricao": "",
+    "img": "/img/itens/lanches/fritas.webp",
     "quantidade": 1
   },
   {
     "nome": "Fritas 120g",
     "valor": 6.50,
     "descricao": "",
+    "img": "/img/itens/lanches/fritas-120.png",
     "quantidade": 1
   }
 ]

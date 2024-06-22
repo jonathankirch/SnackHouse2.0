@@ -3,12 +3,14 @@
     "nome": "Cachorro Quente",
     "valor": 18.00,
     "descricao": "",
+    "img": "/img/itens/lanches/cachorro-quente.jpg",
     "quantidade": 1
   },
   {
     "nome": "Cachorro quente bagunça",
     "valor": 24.00,
     "descricao": "(Carne de rês, frango, coração, ovo, maioneses, ketchup, mostarda, batata palha, alface, queijo, milho, ervilha e presunto)",
+    "img": "/img/itens/lanches/cachorro-bagunca.jpg",
     "quantidade": 1
   }
 ]

@@ -4,6 +4,7 @@ export interface NewItemProps {
   nome: string,
   valor: number,
   descricao: string,
+  img: string,
   quantidade: number
 }
 

@@ -14,6 +14,7 @@ export default function Combos() {
               nome={item.nome}
               descricao={item.descricao}
               valor={item.valor}
+              img={item.img}
               quantidade={item.quantidade}
             />
           </article>

@@ -3,84 +3,98 @@
     "nome": "Pepsi 350ml",
     "valor": 4.50,
     "descricao": "",
+    "img": "/img/itens/bebidas/pepsi-350.jpg",
     "quantidade": 1
   },
   {
     "nome": "Fanta Laranja 350ml",
     "valor": 4.50,
     "descricao": "",
+    "img": "/img/itens/bebidas/fantalaranja-350.jpg",
     "quantidade": 1
   },
   {
     "nome": "Fanta Uva 350ml",
     "valor": 4.50,
     "descricao": "",
+    "img": "/img/itens/bebidas/fanta-uva.jpg",
     "quantidade": 1
   },
   {
     "nome": "Sprite 350ml",
     "valor": 4.50,
     "descricao": "",
+    "img": "/img/itens/bebidas/sprite.jpg",
     "quantidade": 1
   },
   {
     "nome": "Coca Cola 350ml",
     "valor": 5.00,
     "descricao": "",
+    "img": "/img/itens/bebidas/coca-350.jpg",
     "quantidade": 1
   },
   {
     "nome": "Fruki 350ml",
     "valor": 4.00,
     "descricao": "",
+    "img": "/img/itens/bebidas/fruki-350.jpg",
     "quantidade": 1
   },
   {
     "nome": "Coca Zero Lata",
     "valor": 5.00,
     "descricao": "",
+    "img": "/img/itens/bebidas/coca-zero.jpg",
     "quantidade": 1
   },
   {
     "nome": "Coca Cola 2L",
     "valor": 12.00,
     "descricao": "",
+    "img": "/img/itens/bebidas/coca-2l.jpg",
     "quantidade": 1
   },
   {
     "nome": "Coca Cola 1.5L",
     "valor": 10.00,
     "descricao": "",
+    "img": "/img/itens/bebidas/coca-1,5.jpg",
     "quantidade": 1
   },
   {
     "nome": "Fruki 2L",
     "valor": 10.00,
     "descricao": "",
+    "img": "/img/itens/bebidas/fruki-2.jpg",
     "quantidade": 1
   },
   {
     "nome": "Charrua 2L",
     "valor": 10.00,
     "descricao": "",
+    "img": "/img/itens/bebidas/charrua-2l.jpg",
     "quantidade": 1
   },
   {
     "nome": "Pepsi 1.5L",
     "valor": 9.00,
     "descricao": "",
+    "img": "/img/itens/bebidas/pepsi-1,5.jpg",
     "quantidade": 1
   },
   {
     "nome": "Pepsi 2L",
     "valor": 11.00,
     "descricao": "",
+    "img": "/img/itens/bebidas/pepsi-2l.jpg",
     "quantidade": 1
   },
   {
     "nome": "Redbull",
     "valor": 12.00,
     "descricao": "",
+    "img": "/img/itens/bebidas/redbull.jpg",
     "quantidade": 1
   }
 ]

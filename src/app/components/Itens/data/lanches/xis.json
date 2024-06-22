@@ -3,42 +3,49 @@
     "nome": "Xis Salada",
     "valor": 20.00,
     "descricao": "(bife hambúrguer, alface, ovo, maioneses, ketchup, mostarda, batata palha, tomate, presunto, queijo, milho e ervilha)",
+    "img": "/img/itens/lanches/x-salada.jpg",
     "quantidade": 1
   },
   {
     "nome": "Xis Frango",
     "valor": 24.00,
     "descricao": "(frango, alface, ovo, maioneses, ketchup, mostarda, batata palha, tomate, presunto, queijo, milho e ervilha)",
+    "img": "/img/itens/lanches/x-frango.jpg",
     "quantidade": 1
   },
   {
     "nome": "Xis Bacon",
     "valor": 26.00,
     "descricao": "(bacon, alface, ovo, maioneses, ketchup, mostarda, batata palha, tomate, presunto, queijo, milho e ervilha)",
+    "img": "/img/itens/lanches/x-bacon.jpg",
     "quantidade": 1
   },
   {
     "nome": "Xis bagunça",
     "valor": 30.00,
     "descricao": "(coração, carne de frango, carne de rês, alface, ovo, maioneses, ketchup, mostarda, batata palha, tomate, presunto, queijo, milho e ervilha)",
+    "img": "/img/itens/lanches/x-bagunca.jpg",
     "quantidade": 1
   },
   {
     "nome": "Xis calabresa",
     "valor": 25.00,
     "descricao": "(calabresa, alface, ovo, maioneses, ketchup, mostarda, batata palha, tomate, presunto, queijo, milho e ervilha)",
+    "img": "/img/itens/lanches/x-calabresa.jpg",
     "quantidade": 1
   },
   {
     "nome": "Xis coração",
     "valor": 30.00,
     "descricao": "(coração, alface, ovo, maioneses, ketchup, mostarda, batata palha, tomate, presunto, queijo, milho e ervilha)",
+    "img": "/img/itens/lanches/x-coracao.webp",
     "quantidade": 1
   },
   {
     "nome": "Xis tudo",
     "valor": 30.00,
     "descricao": "(coracao, carne de rês, carne de frango, calabresa, bacon, presunto, quiejo, milho, ervilha, batata palha, tomate, alface, maionese, ketchup e mostarda)",
+    "img": "/img/itens/lanches/x-tudo.png",
     "quantidade": 1
   }
 ]

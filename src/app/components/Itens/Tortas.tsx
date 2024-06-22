@@ -1,10 +1,10 @@
 import tortas from './data/tortas/tortas.json'
 
-import NewItem from "./NewItem"
+import NewItem from './NewItem'
 
 export default function Tortas() {
   return (
-    <section className="mb-10" id='tortas'>
+    <section className="mb-10" id="tortas">
       <h1 className="text-2xl font-bold uppercase mb-5">Sabores</h1>
       <div className="grid grid-cols-2 gap-x-10 gap-y-5">
         {tortas.map((item, index) => (
@@ -15,6 +15,7 @@ export default function Tortas() {
               nome={item.nome}
               descricao={item.descricao}
               valor={item.valor}
+              img={item.img}
               quantidade={item.quantidade}
             />
           </article>

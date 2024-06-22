@@ -17,6 +17,7 @@ export default function DocesSalgados() {
                 nome={item.nome}
                 descricao={item.descricao}
                 valor={item.valor}
+                img={item.img}
                 quantidade={item.quantidade}
               />
             </article>
@@ -34,6 +35,7 @@ export default function DocesSalgados() {
                 nome={item.nome}
                 descricao={item.descricao}
                 valor={item.valor}
+                img={item.img}
                 quantidade={item.quantidade}
               />
             </article>

@@ -3,78 +3,91 @@
     "nome": "Brigadeiro",
     "valor": 1.00,
     "descricao": "",
+    "img": "/img/itens/docesSalgados/brigadeiro.jpg",
     "quantidade": 1
   },
   {
     "nome": "Branquinho",
     "valor": 1.00,
     "descricao": "",
+    "img": "/img/itens/docesSalgados/branquinho.jpg",
     "quantidade": 1
   },
   {
     "nome": "Beijinho",
     "valor": 1.00,
     "descricao": "",
+    "img": "/img/itens/docesSalgados/beijinho.webp",
     "quantidade": 1
   },
   {
     "nome": "Crispy",
     "valor": 1.20,
     "descricao": "",
+    "img": "/img/itens/docesSalgados/crispy.jpg",
     "quantidade": 1
   },
   {
     "nome": "Flocos",
     "valor": 1.20,
     "descricao": "",
+    "img": "/img/itens/docesSalgados/flocos.jpg",
     "quantidade": 1
   },
   {
     "nome": "Coco queimado",
     "valor": 1.25,
     "descricao": "",
+    "img": "/img/itens/docesSalgados/coco-queimado.jpg",
     "quantidade": 1
   },
   {
     "nome": "Morango",
     "valor": 1.25,
     "descricao": "",
+    "img": "/img/itens/docesSalgados/morango.jpg",
     "quantidade": 1
   },
   {
     "nome": "Casadinho",
     "valor": 1.00,
     "descricao": "",
+    "img": "/img/itens/docesSalgados/casadinho.jpg",
     "quantidade": 1
   },
   {
     "nome": "Mini Churros",
     "valor": 1.25,
     "descricao": "",
+    "img": "/img/itens/docesSalgados/mini-churros.jpg",
     "quantidade": 1
   },
   {
     "nome": "Sensação",
     "valor": 1.25,
     "descricao": "",
+    "img": "/img/itens/docesSalgados/sensacao.jpg",
     "quantidade": 1
   },
   {
     "nome": "Ninho c/ Nutella",
     "valor": 1.25,
     "descricao": "",
+    "img": "/img/itens/docesSalgados/ninho-c-nutella.png",
     "quantidade": 1
   },
   {
     "nome": "Morango c/ Nutella",
     "valor": 1.40,
     "descricao": "",
+    "img": "/img/itens/docesSalgados/morango-c-nutella.jpg",
     "quantidade": 1
   },
   {
     "nome": "Amendoim",
     "valor": 1.10,
     "descricao": "",
+    "img": "/img/itens/docesSalgados/brigadeiro-amendoim.jpg",
     "quantidade": 1
   },
   {
@@ -87,36 +100,42 @@
     "nome": "Bombom Ferrero Rocher",
     "valor": 2.15,
     "descricao": "",
+    "img": "/img/itens/docesSalgados/bombom-ferrero.jpg",
     "quantidade": 1
   },
   {
     "nome": "Camafeu",
     "valor": 2.15,
     "descricao": "",
+    "img": "/img/itens/docesSalgados/camafeu.jpg",
     "quantidade": 1
   },
   {
     "nome": "Confete",
     "valor": 1.40,
     "descricao": "",
+    "img": "/img/itens/docesSalgados/confete.jpg",
     "quantidade": 1
   },
   {
     "nome": "Torta bolacha pequena",
     "valor": 39.00,
     "descricao": "",
+    "img": "/img/itens/docesSalgados/torta-bolacha-pequena.webp",
     "quantidade": 1
   },
   {
     "nome": "Torta bolacha Grande",
     "valor": 58.00,
     "descricao": "",
+    "img": "/img/itens/docesSalgados/torta-bolacha-grande.jpg",
     "quantidade": 1
   },
   {
     "nome": "Mini Churros (frito c/ mumu dentro)",
     "valor": 1.10,
     "descricao": "",
+    "img": "/img/itens/docesSalgados/mini-churros-frito.jpg",
     "quantidade": 1
   }
 ]

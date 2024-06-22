@@ -3,7 +3,13 @@
 import { useCartItens } from "@/app/context/CartItens";
 import { NewItemProps } from "@/app/types";
 
-export default function NewItem({ nome, valor, descricao }: NewItemProps) {
+import Image from "next/image";
+
+import { toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
+
+
+export default function NewItem({ nome, valor, descricao, img }: NewItemProps) {
   const { addItem, cartItens } = useCartItens();
 
   const formatarValor = (lang: string, currency: string, balance: number) =>
@@ -20,16 +26,26 @@ export default function NewItem({ nome, valor, descricao }: NewItemProps) {
       descricao,
       quantidade:  1
     };
-  addItem(newItem);
+    notify()
+    addItem(newItem);
   };
+
+  const notify = () => toast.success(`${nome} adicionado ao carrinho`)
 
   return (
     <>
       <div>
-        <img
+        {/* <img
           src="img/Teste.webp"
           alt="img"
           className="object-cover w-full h-full rounded-s-md shadow-md group-hover:shadow-xl"
+        /> */}
+        <Image
+          src={img}
+          className="object-cover w-full h-full rounded-s-md shadow-md group-hover:shadow-xl"
+          width={500}
+          height={500}
+          alt={nome}
         />
       </div>
       <div className="p-5 col-span-2 relative">

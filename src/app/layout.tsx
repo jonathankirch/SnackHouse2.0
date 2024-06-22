@@ -3,6 +3,7 @@ import './globals.css'
 
 import Provider from './Provider'
 import { ModalCartProvider } from './context/ModalCartContext'
+import { ToastContainer } from 'react-toastify'
 
 export const metadata: Metadata = {
   title: 'Snack House',
@@ -19,7 +20,10 @@ export default function RootLayout({
     <html lang="pt-br" className="scroll-smooth">
       <Provider>
         <ModalCartProvider>
-          <body>{children}</body>
+          <body>
+            <ToastContainer position="bottom-right" />
+            {children}
+          </body>
         </ModalCartProvider>
       </Provider>
     </html>
