@@ -16,7 +16,7 @@ export default function Header() {
   }
 
   return (
-    <header className="bg-stone-50 fixed z-10 border-y md:h-24 h-20 w-full">
+    <header className="bg-stone-50 fixed z-10 border-y md:h-24 h-20 my-auto w-full">
       <div className="md:w-3/5 mx-auto">
         <div className="md:pt-4 md:py-auto py-2 flex items-center">
           <div className="md:w-1/6 md:-mr-5">
