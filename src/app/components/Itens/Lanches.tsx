@@ -15,13 +15,13 @@ export default function Lanches() {
 
   return (
     <>
-      <section className="mb-10" id='fritas'>
-        <h1 className="text-2xl font-bold uppercase mb-5">Fritas</h1>
-        <div className="grid grid-cols-2 gap-x-10 gap-y-5">
+      <section id="fritas" className='mb-14'>
+        <h1 className="md:text-3xl text-xl font-bold mb-5 ml-5 uppercase">Fritas</h1>
+        <div className="grid md:grid-cols-2 grid-cols-1 mx-2 gap-x-10 gap-y-5">
           {fritas.map((item, index) => (
             <article
               key={index}
-              className="grid grid-cols-3 shadow-md rounded-md group hover:shadow-xl transition">
+              className="grid grid-cols-3 md:h-52 h-40 shadow-md rounded-md group hover:shadow-xl transition border border-neutral-100 hover:bg-neutral-50">
               <NewItem
                 nome={item.nome}
                 descricao={item.descricao}
@@ -33,13 +33,13 @@ export default function Lanches() {
           ))}
         </div>
       </section>
-      <section className="mb-10" id='picados'>
-        <h1 className="text-2xl font-bold uppercase mb-5">Picados</h1>
-        <div className="grid grid-cols-2 gap-x-10 gap-y-5">
+      <section id="picados" className='mb-14'>
+        <h1 className="md:text-3xl text-xl font-bold mb-5 ml-5 uppercase">Picados</h1>
+        <div className="grid md:grid-cols-2 grid-cols-1 mx-2 gap-x-10 gap-y-5">
           {picados.map((item, index) => (
             <article
               key={index}
-              className="grid grid-cols-3 shadow-md rounded-md group hover:shadow-xl transition h-52">
+              className="grid grid-cols-3 md:h-52 h-40 shadow-md rounded-md group hover:shadow-xl transition border border-neutral-100 hover:bg-neutral-50">
               <NewItem
                 nome={item.nome}
                 descricao={item.descricao}
@@ -51,13 +51,13 @@ export default function Lanches() {
           ))}
         </div>
       </section>
-      <section className="mb-10" id='cachorroquente'>
-        <h1 className="text-2xl font-bold uppercase mb-5">Cachorro Quente</h1>
-        <div className="grid grid-cols-2 gap-x-10 gap-y-5">
+      <section id="cachorroquente" className='mb-14'>
+        <h1 className="md:text-3xl text-xl font-bold mb-5 ml-5 uppercase">Cachorro-Quente</h1>
+        <div className="grid md:grid-cols-2 mx-2 grid-cols-1 gap-x-10 gap-y-5">
           {cachorrosQuentes.map((item, index) => (
             <article
               key={index}
-              className="grid grid-cols-3 shadow-md rounded-md group hover:shadow-xl transition h-52">
+              className="grid grid-cols-3 md:h-52 h-40 shadow-md rounded-md group hover:shadow-xl transition border border-neutral-100 hover:bg-neutral-50">
               <NewItem
                 nome={item.nome}
                 descricao={item.descricao}
@@ -69,13 +69,13 @@ export default function Lanches() {
           ))}
         </div>
       </section>
-      <section className="mb-10" id='xis'>
-        <h1 className="text-2xl font-bold uppercase mb-5">Xis</h1>
-        <div className="grid grid-cols-2 gap-x-10 gap-y-5">
+      <section className="mb-10" id="xis">
+        <h1 className="md:text-3xl text-xl font-bold mb-5 ml-5 uppercase">Xis</h1>
+        <div className="grid md:grid-cols-2 grid-cols-1 mx-2 gap-x-10 gap-y-5">
           {xis.map((item, index) => (
             <article
               key={index}
-              className="grid grid-cols-3 shadow-md rounded-md group hover:shadow-xl transition h-52">
+              className="grid grid-cols-3 shadow-md rounded-md group hover:shadow-xl transition md:h-52 h-40 border border-neutral-100 hover:bg-neutral-50">
               <NewItem
                 nome={item.nome}
                 descricao={item.descricao}

@@ -3,7 +3,7 @@
     "nome": "Brigadeiro",
     "valor": 1.00,
     "descricao": "",
-    "img": "/img/brigadeiro.jpg",
+    "img": "/img/brigadeiro.webp",
     "quantidade": 1
   },
   {
@@ -45,7 +45,7 @@
     "nome": "Morango",
     "valor": 1.25,
     "descricao": "",
-    "img": "/img/morango.jpg",
+    "img": "/img/brigadeiro-morango.webp",
     "quantidade": 1
   },
   {
@@ -94,7 +94,7 @@
     "nome": "Bombom amendoim",
     "valor": 2.00,
     "descricao": "",
-    "img": "",
+    "img": "/img/bombom-amendoim.jpg",
     "quantidade": 1
   },
   {

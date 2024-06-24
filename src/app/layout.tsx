@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="pt-br" className="scroll-smooth">
       <Provider>
         <ModalCartProvider>
-          <body>
+          <body className='bg-neutral-100'>
             <ToastContainer position="bottom-right" />
             {children}
           </body>

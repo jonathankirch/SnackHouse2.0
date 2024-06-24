@@ -31,7 +31,7 @@
     "nome": "Brigadeiro",
     "valor": 45.00,
     "descricao": "Massa de chocolate com brigadeiro.",
-    "img": "/img/brigadeiro.jpg",
+    "img": "/img/torta-brigadeiro.jpg",
     "quantidade": 1
   },
   {
@@ -59,14 +59,14 @@
     "nome": "Morango",
     "valor": 48.00,
     "descricao": "Massa branca, chantilly, morango e merengue.",
-    "img": "/img/morango.jpg",
+    "img": "/img/torta-morango.jpg",
     "quantidade": 1
   },
   {
     "nome": "Julia",
     "valor": 45.00,
     "descricao": "Massa branca, merengue, branquinho, chantilly e brigadeiro.",
-    "img": "",
+    "img": "/img/torta-morango.jpg",
     "quantidade": 1
   },
   {

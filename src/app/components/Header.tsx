@@ -3,6 +3,9 @@
 import { useState } from 'react'
 
 import HeaderCart from './Cart/HeaderCart'
+import Image from 'next/image'
+
+import { FaMapMarkerAlt } from 'react-icons/fa'
 
 export default function Header() {
   const [selectedOption, setSelectedOption] = useState('asdf') // Valor da opção que você quer exibir
@@ -13,25 +16,33 @@ export default function Header() {
   }
 
   return (
-    <header className="bg-stone-50 fixed z-10">
-      <div className="md:w-2/3 mx-auto">
-        <div className="py-5 flex items-center">
-          <div className="w-1/6">
-            <img
-              src="img/logo-snackhouse.webp"
-              alt="icon"
-              className="w-2/4 mx-auto rounded-md"
+    <header className="bg-stone-50 fixed z-10 border-y md:h-24 h-20 w-full">
+      <div className="md:w-3/5 mx-auto">
+        <div className="md:pt-4 md:py-auto py-2 flex items-center">
+          <div className="md:w-1/6 md:-mr-5">
+            <Image
+              src="/img/logo-snackhouse.webp"
+              alt="Snack House Logo"
+              width={1000}
+              height={1000}
+              className="md:w-2/4 w-2/3 mx-2 rounded-md"
             />
           </div>
-          <div>
-            <strong>Snack House</strong>
-            {/* add link de localização */}
-            <p>Rua tal tal tal tal</p>
+          <div className="md:w-1/4 md:inline hidden">
+            <strong className='md:text-xl'>Snack House</strong>
+            <br />
+            <a
+              className="line-clamp-1 text-black mt-1 hover:underline"
+              href="https://maps.app.goo.gl/QRb17q2K2pgs1cLF7"
+              target="_blank">
+              <FaMapMarkerAlt className='inline mb-1' size={17} /> R. Carlos Arnt, 1025, Canabarro - Teutônia
+              / RS - Brasil
+            </a>
           </div>
 
-          <div className="border border-neutral-200 rounded-2xl h-10 my-auto ml-10 mr-5"></div>
+          <div className="border border-neutral-200 rounded-2xl h-10 my-auto ml-2 mr-5"></div>
 
-          <div className="my-auto">
+          {/* <div className="my-auto">
             <select
               name="tsete"
               id="1"
@@ -45,9 +56,9 @@ export default function Header() {
               <option value="fadsf">Sábado - 17:30 às 23:00</option>
               <option value="afd">Domingo - 17:29 às 23:00</option>
             </select>
-          </div>
+          </div> */}
 
-          <div className="flex ml-auto mr-10 items-center">
+          <div className="flex md:ml-auto items-center ml-auto mr-2">
             <HeaderCart />
           </div>
         </div>
