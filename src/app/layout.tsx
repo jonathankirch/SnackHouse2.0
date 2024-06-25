@@ -12,6 +12,12 @@ export const metadata: Metadata = {
   description:
     'Desfrute dos melhores lanches em Canabarro, Teutônia! Nossa lancheria oferece uma variedade de escolhas, como: fritas, xis, cachorro quente e picados. Venha experimentar os lanches mais deliciosos da região!',
   keywords: [
+    'snackhouse',
+    'snack house lanches',
+    'Snack house teutonia',
+    'snackhouse lanches',
+    'snackhouse lanches canabarro',
+    'snackhouse lanches teutonia',
     'Lanches em Teutônia',
     'Lancheria em Teutônia',
     'Hamburgueria Teutônia',
