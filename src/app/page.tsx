@@ -18,15 +18,18 @@ export default function Home() {
       <Cart />
       <main className={`${isOpen ? 'blur' : ''}`}>
         <Header />
-        <section className="md:pt-32 pt-24 mx-2">
+        <section className="md:pt-32 pt-24 mx-2" id='home'>
           <hr className="md:w-3/5 w-4/5 mx-auto border border-yellow-400 rounded-xl" />
           <div className="grid md:grid-cols-2 grid-cols-1 md:w-2/4 mx-auto my-5">
             <div className="text-center my-auto">
               <h1 className="text-6xl font-bold md:w-full w-1/2 mx-auto">Snack House</h1>
               <div className="md:w-3/4 w-1/2 mx-auto bg-gradient-to-r from-black via-red-500 to-yellow-500 h-2 rounded"></div>
-              <div className="text-xl mt-10 font-bold text-neutral-700">
+
+              {/* caso queiram adicionar funcionaliade que mostra se ta aberto naquele momento ou não */}
+              
+              {/* <div className="text-xl mt-10 font-bold text-neutral-700">
                 <h2 className="mb-1">Aberto</h2>
-              </div>
+              </div> */}
             </div>
             <div>
               <Image

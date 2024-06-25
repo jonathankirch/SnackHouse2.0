@@ -1,14 +1,14 @@
 'use client'
 import { useCartItens } from '@/app/context/CartItens'
-
 import { IoCloseSharp } from 'react-icons/io5'
-
 import { useModalCart } from '@/app/context/ModalCartContext'
+import { useState } from 'react'
 
 export default function Cart() {
   const { cartItens, increaseItemQuantity, decreaseItemQuantity } =
     useCartItens()
   const { isOpen, closeModal } = useModalCart()
+  const [observacoes, setObservacoes] = useState('')
 
   const formatarValor = (lang: string, currency: string, balance: number) =>
     Intl.NumberFormat(lang, {
@@ -22,13 +22,46 @@ export default function Cart() {
     0
   )
 
+  function criarLink() {
+      let numeroWhats = '5551995635609'
+
+      const itens = cartItens
+        .map(
+          (item) =>
+            `${item.quantidade}x - ${item.nome} - ${formatarValor(
+              'pt-BR',
+              'BRL',
+              item.valor
+            )}`
+        )
+        .join('\n') // Usando %0A para representar a quebra de linha
+
+      const texto = encodeURIComponent(`Olá, gostaria de fazer um pedido 😄
+
+--------------------------
+
+${itens}
+
+--------------------------
+
+Valor total: ${formatarValor('pt-BR', 'BRL', valorTotal)}
+
+Observações: 
+  -${observacoes ? observacoes : 'Sem observações'}
+      `)
+
+    return `https://wa.me/${numeroWhats}?text=${texto}`
+  }
+
   return (
     <div
       className={`h-screen w-screen fixed border z-20 blur-none ${
         !isOpen ? 'hidden' : ''
       }`}>
       <div className="md:w-1/3 md:h-4/5 h-screen border border-black bg-white mx-auto my-auto md:mt-20 md:rounded-xl relative">
-        <h1 className="text-2xl m-4 absolute underline">Carrinho:</h1>
+        <h1 className="text-2xl m-4 absolute underline font-bold uppercase  ">
+          Carrinho:
+        </h1>
         <button
           className="absolute end-0 md:m-4 mt-3 mr-4"
           onClick={closeModal}>
@@ -77,16 +110,21 @@ export default function Cart() {
             <h2 className="font-bold">Observações:</h2>
             <textarea
               className="border-2 rounded-md w-full h-32 border-black p-2"
-              placeholder="Ex: Xis sem maionese, Cachorro quente sem ervilha, etc."></textarea>
+              placeholder="Ex: Xis sem maionese, Cachorro quente sem ervilha, etc."
+              value={observacoes}
+              onChange={(e) => setObservacoes(e.target.value)}></textarea>
           </div>
           <button
             className="bg-red-400 text-white rounded border shadow p-2 mt-3 ml-10"
             onClick={closeModal}>
             Cancelar
           </button>
-          <button className="bg-green-500 rounded border border-white shadow p-2 float-end mt-3 mr-10 text-white">
+          <a
+            href={criarLink()}
+            target="_blank"
+            className="bg-green-500 rounded border border-white shadow p-2 float-end mt-3 mr-10 text-white">
             Finalizar Pedido
-          </button>
+          </a>
         </div>
       </div>
     </div>

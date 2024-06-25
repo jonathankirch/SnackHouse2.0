@@ -20,13 +20,15 @@ export default function Header() {
       <div className="md:w-3/5 mx-auto">
         <div className="md:pt-4 md:py-auto py-2 flex items-center">
           <div className="md:w-1/6 md:-mr-5">
-            <Image
-              src="/img/logo-snackhouse.webp"
-              alt="Snack House Logo"
-              width={1000}
-              height={1000}
-              className="md:w-2/4 w-2/3 mx-2 rounded-md"
-            />
+          <a href="#home">
+              <Image
+                src="/img/logo-snackhouse.webp"
+                alt="Snack House Logo"
+                width={1000}
+                height={1000}
+                className="md:w-2/4 w-2/3 mx-2 rounded-md"
+              />
+          </a>
           </div>
           <div className="md:w-1/4 md:inline hidden">
             <strong className='md:text-xl'>Snack House</strong>
