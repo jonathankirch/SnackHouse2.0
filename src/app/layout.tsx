@@ -4,13 +4,12 @@ import './globals.css'
 import Provider from './Provider'
 import { ModalCartProvider } from './context/ModalCartContext'
 import { ToastContainer } from 'react-toastify'
-import Head from 'next/head'
 
 export const metadata: Metadata = {
-  title: 'Snack House',
+  title: 'Snack House | Lancheria em Teutônia - RS',
   icons: '/img/logo-snackhouse.webp',
   description:
-    'Desfrute dos melhores lanches em Canabarro, Teutônia! Nossa lancheria oferece uma variedade de escolhas, como: fritas, xis, cachorro quente e picados. Venha experimentar os lanches mais deliciosos da região!',
+    'Desfrute dos melhores lanches em Canabarro, Teutônia! Nossa lancheria oferece uma variedade de escolhas, como: fritas, xis, cachorro quente e picados.',
   keywords: [
     'snackhouse',
     'snack house lanches',
@@ -88,6 +87,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br" className="scroll-smooth">
+      <head>
+        <link rel="apple-touch-icon" sizes="180x180" href="img/logo-snackhouse.webp" />
+      </head>
       <Provider>
         <ModalCartProvider>
           <body className="bg-neutral-100">
