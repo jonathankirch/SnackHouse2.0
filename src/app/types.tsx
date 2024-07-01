@@ -20,6 +20,7 @@ export interface CartContextType {
   addItem: (item: CartItensProps) => void;
   increaseItemQuantity: (itemName: string) => void;
   decreaseItemQuantity: (itemName: string) => void;
+  updateItemQuantity: (itemName: string, quantity: number) => void;
 }
 
 export interface ProviderProps {

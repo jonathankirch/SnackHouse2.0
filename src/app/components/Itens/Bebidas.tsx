@@ -6,13 +6,6 @@ import NewItem from './NewItem';
 
 export default function Bebidas() {
 
-  const formatarValor = ( lang: string, currency: string, balance: number ) =>
-    Intl.NumberFormat(lang, {
-      style: "currency",
-      maximumFractionDigits: 2,
-      currency,
-    }).format(balance)
-
   return (
     <>
       <section id='cervejas' className='mb-14'>

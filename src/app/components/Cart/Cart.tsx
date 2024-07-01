@@ -5,7 +5,7 @@ import { useModalCart } from '@/app/context/ModalCartContext'
 import { useState } from 'react'
 
 export default function Cart() {
-  const { cartItens, increaseItemQuantity, decreaseItemQuantity } =
+  const { cartItens, increaseItemQuantity, decreaseItemQuantity, updateItemQuantity } =
     useCartItens()
   const { isOpen, closeModal } = useModalCart()
   const [observacoes, setObservacoes] = useState('')
@@ -22,21 +22,25 @@ export default function Cart() {
     0
   )
 
+  const handleQuantityChange = (nome: string, quantidade: number) => {
+    updateItemQuantity(nome, quantidade)
+  } 
+
   function criarLink() {
-      let numeroWhats = '5551995635609'
+    let numeroWhats = '5551995635609'
 
-      const itens = cartItens
-        .map(
-          (item) =>
-            `${item.quantidade}x - ${item.nome} - ${formatarValor(
-              'pt-BR',
-              'BRL',
-              item.valor
-            )}`
-        )
-        .join('\n') // Usando %0A para representar a quebra de linha
+    const itens = cartItens
+      .map(
+        (item) =>
+          `${item.quantidade}x - ${item.nome} - ${formatarValor(
+            'pt-BR',
+            'BRL',
+            item.valor
+          )}`
+      )
+      .join('\n')
 
-      const texto = encodeURIComponent(`Olá, gostaria de fazer um pedido 😄
+    const texto = encodeURIComponent(`Olá, gostaria de fazer um pedido 😄
 
 --------------------------
 
@@ -67,7 +71,7 @@ Observações:
           onClick={closeModal}>
           <IoCloseSharp size={40} />
         </button>
-        <div className="mt-20 md:h-1/3 h-1/3 overflow-y-auto">
+        <div className="mt-20 h-1/3 overflow-y-auto">
           {cartItens &&
             cartItens.map((item, index) => (
               <>
@@ -84,13 +88,21 @@ Observações:
                       item.valor * item.quantidade
                     )}
                   </p>
-                  <div className="flex items-center my-auto">
+                  <div className="flex items-center my-auto w-min">
                     <button
                       className="w-6 h-6 bg-red-300 rounded font-bold text-center flex items-center justify-center"
                       onClick={() => decreaseItemQuantity(item.nome)}>
                       -
                     </button>
-                    <p className="mx-2">{item.quantidade}</p>
+                    <input
+                      className="mx-2 border w-10 rounded text-center float-end "
+                      type="number"
+                      min={0}
+                      value={item.quantidade}
+                      onChange={(e) =>
+                        handleQuantityChange(item.nome, parseInt(e.target.value))
+                      }
+                    />
                     <button
                       className="w-6 h-6 bg-green-300 rounded font-bold text-center flex items-center justify-center"
                       onClick={() => increaseItemQuantity(item.nome)}>
@@ -105,7 +117,7 @@ Observações:
         <h2 className="text-xl text-end mt-5 mr-10 font-bold">
           Total: {formatarValor('pt-BR', 'BRL', valorTotal)}
         </h2>
-        <div className="">
+        <div className='absolute w-full bottom-10'>
           <div className="mx-10">
             <h2 className="font-bold">Observações:</h2>
             <textarea

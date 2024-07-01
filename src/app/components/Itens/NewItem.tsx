@@ -11,7 +11,7 @@ import 'react-toastify/dist/ReactToastify.css'
 import { IoCartOutline } from 'react-icons/io5'
 
 export default function NewItem({ nome, valor, descricao, img }: NewItemProps) {
-  const { addItem, cartItens } = useCartItens()
+  const { addItem } = useCartItens()
 
   const formatarValor = (lang: string, currency: string, balance: number) =>
     Intl.NumberFormat(lang, {
