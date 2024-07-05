@@ -23,10 +23,10 @@ export default function AllItens() {
         <h2 className='text-3xl font-bold uppercase bg-black text-yellow-400 p-2 rounded mb-5 text-center mx-2'>Doces e Salgados</h2>
         <DocesSalgados />
       </div>
-      {/* <div>
+      <div>
         <h2 className='text-3xl font-bold uppercase bg-black text-yellow-400 p-2 rounded mb-5 text-center mx-2'>Tortas</h2>
         <Tortas />
-      </div> */}
+      </div>
     </>
   )
 }
