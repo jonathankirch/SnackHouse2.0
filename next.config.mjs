@@ -1,7 +1,4 @@
-import { withSitemap } from 'next-sitemap';
+/** @type {import('next').NextConfig} */
+const nextConfig = {}
 
-const nextConfig = {
-  // configurações específicas do Next.js aqui
-};
-
-export default withSitemap(nextConfig);
+export default nextConfig
