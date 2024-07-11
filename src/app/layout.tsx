@@ -88,7 +88,11 @@ export default function RootLayout({
   return (
     <html lang="pt-br" className="scroll-smooth">
       <head>
-        <link rel="apple-touch-icon" sizes="180x180" href="img/logo-snackhouse.webp" />
+        {/* <link rel="apple-touch-icon" sizes="180x180" href="img/logo-snackhouse.webp" /> */}
+        <link rel="apple-touch-icon" sizes="180x180" href="img/logo-snackhouse-apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="img/logo-snackhouse-favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="img/logo-snackhouse-favicon-16x16.png" />
+        <link rel="manifest" href="img/logo-snackhouse-site.webmanifest" />
       </head>
       <Provider>
         <ModalCartProvider>
