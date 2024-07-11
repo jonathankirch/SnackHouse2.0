@@ -12,13 +12,19 @@ export const metadata: Metadata = {
     'Desfrute dos melhores lanches em Canabarro, Teutônia! Nossa lancheria oferece uma variedade de escolhas, como: fritas, xis, cachorro quente e picados.',
   keywords: [
     'snackhouse',
+    'snack house',
     'snack house lanches',
     'Snack house teutonia',
+    'Lanches Teutônia',
+    'Lanches Canabarro',
+    'snackhouse lanches',
+    'Snackhouse teutonia',
     'snackhouse lanches',
     'snackhouse lanches canabarro',
     'snackhouse lanches teutonia',
     'Lanches em Teutônia',
     'Lancheria em Teutônia',
+    'Lancheria Teutônia',
     'Hamburgueria Teutônia',
     'Melhores lanches em Teutônia',
     'Sanduíches Teutônia',
@@ -88,7 +94,6 @@ export default function RootLayout({
   return (
     <html lang="pt-br" className="scroll-smooth">
       <head>
-        {/* <link rel="apple-touch-icon" sizes="180x180" href="img/logo-snackhouse.webp" /> */}
         <link rel="apple-touch-icon" sizes="180x180" href="img/logo-snackhouse-apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="img/logo-snackhouse-favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="img/logo-snackhouse-favicon-16x16.png" />
