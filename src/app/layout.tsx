@@ -7,7 +7,7 @@ import { ToastContainer } from 'react-toastify'
 
 export const metadata: Metadata = {
   title: 'Snack House | Lancheria em Teutônia - RS',
-  icons: '/favicon.ico',
+  icons: '/images/favicon.ico',
   description:
     'Desfrute dos melhores lanches em Canabarro, Teutônia! Nossa lancheria oferece uma variedade de escolhas, como: fritas, xis, cachorro quente e picados.',
   keywords: [
