@@ -7,6 +7,7 @@ import { ToastContainer } from 'react-toastify'
 
 export const metadata: Metadata = {
   title: 'Snack House | Lancheria em Teutônia - RS',
+  icons: '/favicon.ico',
   description:
     'Desfrute dos melhores lanches em Canabarro, Teutônia! Nossa lancheria oferece uma variedade de escolhas, como: fritas, xis, cachorro quente e picados.',
   keywords: [
@@ -93,7 +94,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br" className="scroll-smooth">
       <head>
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        {/* <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> */}
         <link rel="apple-touch-icon" sizes="180x180" href="/img/logo-snackhouse-apple-touch-icon.png" />
         <link rel="manifest" href="/img/logo-snackhouse-site.webmanifest" />
       </head>
