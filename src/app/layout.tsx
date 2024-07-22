@@ -99,8 +99,12 @@ export default function RootLayout({
           sizes="180x180"
           href="/img/logo-snackhouse-apple-touch-icon.png"
         />
-        <link rel="manifest" href="/img/logo-snackhouse-site.webmanifest" />
         <meta name="google-site-verification" content="Gm1G62fTQ4AwSTZ694p6yMlYr6S_W6V32LSyEKfjYo0" />
+        <meta property="og:title" content="Snack House | Lancheria em Teutônia - RS" />
+        <meta property="og:description" content="Desfrute dos melhores lanches em Canabarro, Teutônia! Nossa lancheria oferece uma variedade de escolhas, como: fritas, xis, cachorro quente e picados." />
+        <meta property="og:image" content="/favicon.ico" />
+        <meta property="og:url" content="https://snackhouse.app.br/" />
+        <meta property="og:type" content="website" />
       </head>
       <Provider>
         <ModalCartProvider>
