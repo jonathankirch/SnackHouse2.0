@@ -16,7 +16,7 @@ export default function Lanches() {
   return (
     <>
       <section id="fritas" className='mb-14'>
-        <h1 className="md:text-3xl text-xl font-bold mb-5 ml-5 uppercase">Fritas</h1>
+        <h3 className="md:text-3xl text-xl font-bold mb-5 ml-5 uppercase">Fritas</h3>
         <div className="grid md:grid-cols-2 grid-cols-1 mx-2 gap-x-10 gap-y-5">
           {fritas.map((item, index) => (
             <article
@@ -34,7 +34,7 @@ export default function Lanches() {
         </div>
       </section>
       <section id="picados" className='mb-14'>
-        <h1 className="md:text-3xl text-xl font-bold mb-5 ml-5 uppercase">Picados</h1>
+        <h3 className="md:text-3xl text-xl font-bold mb-5 ml-5 uppercase">Picados</h3>
         <div className="grid md:grid-cols-2 grid-cols-1 mx-2 gap-x-10 gap-y-5">
           {picados.map((item, index) => (
             <article
@@ -52,7 +52,7 @@ export default function Lanches() {
         </div>
       </section>
       <section id="cachorroquente" className='mb-14'>
-        <h1 className="md:text-3xl text-xl font-bold mb-5 ml-5 uppercase">Cachorro-Quente</h1>
+        <h3 className="md:text-3xl text-xl font-bold mb-5 ml-5 uppercase">Cachorro-Quente</h3>
         <div className="grid md:grid-cols-2 mx-2 grid-cols-1 gap-x-10 gap-y-5">
           {cachorrosQuentes.map((item, index) => (
             <article
@@ -70,7 +70,7 @@ export default function Lanches() {
         </div>
       </section>
       <section className="mb-10" id="xis">
-        <h1 className="md:text-3xl text-xl font-bold mb-5 ml-5 uppercase">Xis</h1>
+        <h3 className="md:text-3xl text-xl font-bold mb-5 ml-5 uppercase">Xis</h3>
         <div className="grid md:grid-cols-2 grid-cols-1 mx-2 gap-x-10 gap-y-5">
           {xis.map((item, index) => (
             <article

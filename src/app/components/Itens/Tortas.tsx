@@ -5,7 +5,7 @@ import NewItem from './NewItem'
 export default function Tortas() {
   return (
     <section className="mb-14" id="tortas">
-      <h1 className="md:text-3xl text-xl font-bold mb-5 ml-5 uppercase">Sabores</h1>
+      <h3 className="md:text-3xl text-xl font-bold mb-5 ml-5 uppercase">Sabores</h3>
       <div className="grid md:grid-cols-2 grid-cols-1 mx-2 gap-x-10 gap-y-5">
         {tortas.map((item, index) => (
           <article

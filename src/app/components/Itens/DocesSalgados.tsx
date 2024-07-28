@@ -7,7 +7,7 @@ export default function DocesSalgados() {
   return (
     <>
       <section id='doces' className='mb-14'>
-        <h1 className="md:text-3xl text-xl font-bold mb-5 ml-5 uppercase">Doces</h1>
+        <h3 className="md:text-3xl text-xl font-bold mb-5 ml-5 uppercase">Doces</h3>
         <div className="grid md:grid-cols-2 grid-cols-1 mx-2 gap-x-10 gap-y-5">
           {doces.map((item, index) => (
             <article
@@ -25,7 +25,7 @@ export default function DocesSalgados() {
         </div>
       </section>
       <section className="mb-14" id='salgados'>
-        <h1 className="md:text-3xl text-xl font-bold mb-5 ml-5 uppercase">Salgados</h1>
+        <h3 className="md:text-3xl text-xl font-bold mb-5 ml-5 uppercase">Salgados</h3>
         <div className="grid md:grid-cols-2 grid-cols-1 mx-2 gap-x-10 gap-y-5">
           {salgados.map((item, index) => (
             <article

@@ -45,7 +45,7 @@ export default function NewItem({ nome, valor, descricao, img }: NewItemProps) {
         />
       </div>
       <div className="p-5 col-span-2 relative">
-        <h3 className="md:text-xl font-bold uppercase mb-3">{nome}</h3>
+        <h4 className="md:text-xl font-bold uppercase mb-3">{nome}</h4>
         <p className="uppercase text-xs text-neutral-600 line-clamp-3">{descricao}</p>
         <div className="absolute bottom-0 left-0 w-full flex pb-3">
           <p className="font-bold md:text-xl ml-5">

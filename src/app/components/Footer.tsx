@@ -17,7 +17,7 @@ export default function Footer() {
             alt="img"
             className="w-1/2 mx-auto mt-5 mb-3 rounded"
           />
-          <p className="text-center ">Snack House</p>
+          <h5 className="text-center ">Snack House</h5>
         </div>
         <div>
           {/*  redes sociais caso queira adicionar */}
@@ -31,10 +31,10 @@ export default function Footer() {
               <FaFacebookF size={20} />
             </li>
           </ul> */}
-          <h2 className="font-bold mb-5">Fale com a gente</h2>
+          <h6 className="font-bold mb-5">Fale com a gente</h6>
           <a href='https://wa.me/5551995635609' target='_blank' className='hover:underline'>WhatsApp: (51) 99563-5609</a>
 
-          <h2 className="font-bold my-5">Endereço:</h2>
+          <h6 className="font-bold my-5">Endereço:</h6>
           <a href='https://maps.app.goo.gl/QRb17q2K2pgs1cLF7' target='_blank' className="mb-2 hover:underline"><FaMapMarkerAlt className='inline mr-1 mb-1' />Rua Carlos Arnt, 1025, Canabarro - Teutônia
           / RS - Brasil</a>
         </div>
