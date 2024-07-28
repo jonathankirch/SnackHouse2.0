@@ -1,97 +1,97 @@
 [
   {
-    "nome": "Marta Rocha",
+    "nome": "Torta Marta Rocha",
     "valor": 45.00,
     "descricao": "Massa branca e de chocolate, merengue, nozes, pêssego ou ameixas, nata batida, doce de leite e baba de moça (creme de leite cond.).",
     "img": "/img/marta-rocha.jpg",
     "quantidade": 1
   },
   {
-    "nome": "Morango Moreno",
+    "nome": "Torta Morango Moreno",
     "valor": 48.00,
     "descricao": "Massa de chocolate, morangos, brigadeiro e nata.",
     "img": "/img/morango-moreno.jpg",
     "quantidade": 1
   },
   {
-    "nome": "Abacaxi",
+    "nome": "Torta Abacaxi",
     "valor": 45.00,
     "descricao": "Massa branca com creme e abacaxi.",
     "img": "/img/abacaxi.jpg",
     "quantidade": 1
   },
   {
-    "nome": "Abacaxi c/ coco",
+    "nome": "Torta Abacaxi c/ coco",
     "valor": 45.00,
     "descricao": "Massa branca, abacaxi, creme com coco.",
     "img": "/img/abacaxi-c-coco.jpg",
     "quantidade": 1
   },
   {
-    "nome": "Brigadeiro",
+    "nome": "Torta Brigadeiro",
     "valor": 45.00,
     "descricao": "Massa de chocolate com brigadeiro.",
     "img": "/img/torta-brigadeiro.jpg",
     "quantidade": 1
   },
   {
-    "nome": "Dois Amores",
+    "nome": "Torta Dois Amores",
     "valor": 45.00,
     "descricao": "Massa branca e de chocolate, com brigadeiro branco e de chocolate.",
     "img": "/img/dois-amores.jpg",
     "quantidade": 1
   },
   {
-    "nome": "Musse de Chocolate",
+    "nome": "Torta Musse de Chocolate",
     "valor": 45.00,
     "descricao": "Massa de chocolate com musse de chocolate.",
     "img": "/img/musse-chocolate.webp",
     "quantidade": 1
   },
   {
-    "nome": "Musse de Ninho",
+    "nome": "Torta Musse de Ninho",
     "valor": 55.00,
     "descricao": "Massa branca com musse de ninho. (Adicional: nutella)",
     "img": "/img/musse-ninho.jpg",
     "quantidade": 1
   },
   {
-    "nome": "Morango",
+    "nome": "Torta Morango",
     "valor": 48.00,
     "descricao": "Massa branca, chantilly, morango e merengue.",
     "img": "/img/torta-morango.jpg",
     "quantidade": 1
   },
   {
-    "nome": "Julia",
+    "nome": "Torta Julia",
     "valor": 45.00,
     "descricao": "Massa branca, merengue, branquinho, chantilly e brigadeiro.",
     "img": "/img/torta-julia.jpg",
     "quantidade": 1
   },
   {
-    "nome": "Prestígio",
+    "nome": "Torta Prestígio",
     "valor": 45.00,
     "descricao": "Massa branca e de chocolate, coco c/ brigadeiro branco e de chocolate.",
     "img": "/img/prestigio.jpg",
     "quantidade": 1
   },
   {
-    "nome": "Floresta Negra",
+    "nome": "Torta Floresta Negra",
     "valor": 55.00,
     "descricao": "Massa de Chocolate, musse de chocolate branco e cereja.",
     "img": "/img/floresta-negra.jpg",
     "quantidade": 1
   },
   {
-    "nome": "Bombom c/ creme",
+    "nome": "Torta Bombom c/ creme",
     "valor": 45.00,
     "descricao": "Massa branca, creme, bombom e nata.",
     "img": "/img/bombom-creme.jpg",
     "quantidade": 1
   },
   {
-    "nome": "Bombom c/ musse",
+    "nome": "Torta Bombom c/ musse",
     "valor": 45.00,
     "descricao": "Massa de chocolate, musse de chocolate e bombom.",
     "img": "/img/bombom-musse.jpg",
