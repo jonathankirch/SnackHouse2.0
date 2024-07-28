@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 import Provider from './Provider'
 import { ModalCartProvider } from './context/ModalCartContext'
@@ -42,6 +43,9 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
+
+  const gaId = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID as string
+
   return (
     <html lang="pt-br" className="scroll-smooth">
       <head>
@@ -58,13 +62,16 @@ export default function RootLayout({
         <meta property="og:image" content="https://snackhouse.app.br/favicon.ico" />
         <meta property="og:url" content="https://snackhouse.app.br/" />
         <meta property="og:type" content="website" />
+        <link rel="canonical" href="https://snackhouse.app.br/" />
       </head>
+      
       <Provider>
         <ModalCartProvider>
           <body className="bg-neutral-100">
             <ToastContainer position="bottom-right" />
             {children}
-          </body>
+          </body>  
+          <GoogleAnalytics gaId={gaId || ''} />
         </ModalCartProvider>
       </Provider>
     </html>
