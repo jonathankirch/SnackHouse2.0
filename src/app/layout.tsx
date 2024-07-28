@@ -44,7 +44,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
 
-  const gaId = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID as string
+  const gaId = process.env.GOOGLE_ANALYTICS_ID as string
 
   return (
     <html lang="pt-br" className="scroll-smooth">
