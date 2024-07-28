@@ -63,9 +63,9 @@ Observações:
         !isOpen ? 'hidden' : ''
       }`}>
       <div className="md:w-1/3 md:h-4/5 h-screen border border-black bg-white mx-auto my-auto md:mt-20 md:rounded-xl relative">
-        <h1 className="text-2xl m-4 absolute underline font-bold uppercase  ">
+        <h4 className="text-2xl m-4 absolute underline font-bold uppercase  ">
           Carrinho:
-        </h1>
+        </h4>
         <button
           className="absolute end-0 md:m-4 mt-3 mr-4"
           onClick={closeModal}>
