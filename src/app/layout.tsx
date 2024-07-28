@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     "Melhor lancheria Teutônia", "Promoções de lanches Teutônia", "Lanches frescos Teutônia", 
     "Lanches saudáveis Teutônia"
   ],
-  robots: "all"
+  robots: "index, follow"
 }
 
 export default function RootLayout({
@@ -45,11 +45,6 @@ export default function RootLayout({
   return (
     <html lang="pt-br" className="scroll-smooth">
       <head>
-        {/* <title>Snack House | Lancheria em Teutônia - RS</title> */}
-        {/* <link rel="icon" href="https://snackhouse.app.br/favicon.ico" /> */}
-        {/* <meta name="title" content="Snack House | Lancheria em Teutônia - RS" /> */}
-        {/* <meta name="keywords" content="snackhouse, snack house, snack house lanches, Snack house teutonia, Lanches Teutônia, Lanches Canabarro, snackhouse lanches, Snackhouse teutonia, snackhouse lanches, snackhouse lanches canabarro, snackhouse lanches teutonia, Lanches em Teutônia, Lancheria em Teutônia, Lancheria Teutônia, Hamburgueria Teutônia, Melhores lanches em Teutônia, Sanduíches Teutônia, Lanches rápidos Teutônia, Delivery de lanches Teutônia, Xis Teutônia, Cachorro quente Teutônia, Lanches artesanais Teutônia, Lanchonete Teutônia, Comida rápida Teutônia, Lanches especiais Teutônia, Lanches gourmet Teutônia, Lanches deliciosos Teutônia, Melhor lancheria Teutônia, Promoções de lanches Teutônia, Lanches frescos Teutônia, Lanches saudáveis Teutônia, Lanches com entrega Teutônia, Lanches em Canabarro, Lancheria em Canabarro, Hamburgueria Canabarro, Melhores lanches em Canabarro, Sanduíches Canabarro, Lanches rápidos Canabarro, Delivery de lanches Canabarro, Xis Canabarro, Cachorro quente Canabarro, Lanches artesanais Canabarro, Lanchonete Canabarro, Comida rápida Canabarro, Lanches especiais Canabarro, Lanches gourmet Canabarro, Lanches deliciosos Canabarro, Melhor lancheria Canabarro, Promoções de lanches Canabarro, Lanches frescos Canabarro, Lanches saudáveis Canabarro, Lanches com entrega Canabarro, Lanches em Teutônia, Lancheria em Teutônia, Hamburgueria Teutônia, Melhores lanches em Teutônia, Sanduíches Teutônia, Lanches rápidos Teutônia, Delivery de lanches Teutônia, Xis Teutônia, Cachorro quente Teutônia, Lanches artesanais Teutônia, Lanchonete Teutônia, Comida rápida Teutônia, Lanches especiais Teutônia, Lanches gourmet Teutônia, Lanches deliciosos Teutônia, Melhor lancheria Teutônia, Promoções de lanches Teutônia, Lanches frescos Teutônia, Lanches saudáveis Teutônia" /> */}
-        {/* <meta name="robots" content="index, follow" /> */}
         <link
           rel="apple-touch-icon"
           sizes="180x180"
