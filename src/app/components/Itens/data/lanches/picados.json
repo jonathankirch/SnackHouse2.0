@@ -1,7 +1,7 @@
 [
   {
     "nome": "Picadão com batata",
-    "valor": 52.00,
+    "valor": 59.00,
     "descricao": "(pepino, queijo, ovo de codorna, coração, calabresinha, carne picada e batata palito)",
     "img": "/img/picadao-batata.jpg",
     "quantidade": 1
@@ -22,14 +22,14 @@
   },
   {
     "nome": "Picadão p/ 2 pessoas",
-    "valor": 60.00,
+    "valor": 70.00,
     "descricao": "",
     "img": "/img/picadao-p2.png",
     "quantidade": 1
   },
   {
     "nome": "Picadão p/ 3 pessoas",
-    "valor": 70.00,
+    "valor": 80.00,
     "descricao": "",
     "img": "/img/picadao-p3.png",
     "quantidade": 1
