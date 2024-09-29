@@ -5,8 +5,12 @@ import { useModalCart } from '@/app/context/ModalCartContext'
 import { useState } from 'react'
 
 export default function Cart() {
-  const { cartItens, increaseItemQuantity, decreaseItemQuantity, updateItemQuantity } =
-    useCartItens()
+  const {
+    cartItens,
+    increaseItemQuantity,
+    decreaseItemQuantity,
+    updateItemQuantity,
+  } = useCartItens()
   const { isOpen, closeModal } = useModalCart()
   const [observacoes, setObservacoes] = useState('')
 
@@ -24,7 +28,7 @@ export default function Cart() {
 
   const handleQuantityChange = (nome: string, quantidade: number) => {
     updateItemQuantity(nome, quantidade)
-  } 
+  }
 
   function criarLink() {
     let numeroWhats = '5551995635609'
@@ -95,14 +99,27 @@ Observações:
                       -
                     </button>
                     <input
-                      className="mx-2 border w-10 rounded text-center float-end "
-                      type="number"
+                      className="mx-2 border w-10 rounded text-center float-end"
+                      type={
+                        item.nome.toLowerCase().includes('torta')
+                          ? 'number'
+                          : 'number'
+                      }
+                      step={item.nome.toLowerCase().includes('torta') ? 0.5 : 1} // Permite números quebrados só para tortas
                       min={0}
                       value={item.quantidade}
-                      onChange={(e) =>
-                        handleQuantityChange(item.nome, parseInt(e.target.value))
-                      }
+                      onChange={(e) => {
+                        const novaQuantidade = parseFloat(e.target.value)
+                        // Se o item for torta, aceita número quebrado, senão, arredonda para inteiro
+                        handleQuantityChange(
+                          item.nome,
+                          item.nome.toLowerCase().includes('torta')
+                            ? novaQuantidade
+                            : Math.floor(novaQuantidade)
+                        )
+                      }}
                     />
+
                     <button
                       className="w-6 h-6 bg-green-300 rounded font-bold text-center flex items-center justify-center"
                       onClick={() => increaseItemQuantity(item.nome)}>
@@ -117,7 +134,7 @@ Observações:
         <h2 className="text-xl text-end mt-5 mr-10 font-bold">
           Total: {formatarValor('pt-BR', 'BRL', valorTotal)}
         </h2>
-        <div className='absolute w-full bottom-10'>
+        <div className="absolute w-full bottom-10">
           <div className="mx-10">
             <h2 className="font-bold">Observações:</h2>
             <textarea
