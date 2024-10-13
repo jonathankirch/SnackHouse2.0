@@ -31,7 +31,7 @@ export default function Cart() {
   }
 
   function criarLink() {
-    let numeroWhats = '5551995635609'
+    let numeroWhats = '5551995635606'
 
     const itens = cartItens
       .map(
