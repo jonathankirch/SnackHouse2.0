@@ -1,0 +1,16 @@
+[
+  {
+    "nome": "Terça",
+    "valor": 22.00,
+    "prato": "Arroz, Feijão, Carne de porco, Massa, Purê de batata, Salada",
+    "img": "/img/marmita.jpg",
+    "quantidade": 1
+  },
+  {
+    "nome": "Terça",
+    "valor": 22.00,
+    "prato": "Arroz, Feijão, Massa caseira com carne moída com molho, Purê de batata, Salada",
+    "img": "/img/marmita.jpg",
+    "quantidade": 1
+  }
+]

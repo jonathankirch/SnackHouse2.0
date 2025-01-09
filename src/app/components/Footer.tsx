@@ -20,6 +20,7 @@ export default function Footer() {
           <h5 className="text-center ">Snack House</h5>
         </div>
         <div>
+
           {/*  redes sociais caso queira adicionar */}
 
           {/* <h2 className="font-bold">Acompanhe nossas redes sociais</h2>
@@ -31,6 +32,7 @@ export default function Footer() {
               <FaFacebookF size={20} />
             </li>
           </ul> */}
+
           <h6 className="font-bold mb-5">Fale com a gente</h6>
           <a href='https://wa.me/5551995635609' target='_blank' className='hover:underline'>WhatsApp: (51) 99563-5609</a>
 

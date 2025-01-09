@@ -2,6 +2,7 @@ import Bebidas from './Bebidas'
 import Combos from './Combos'
 import DocesSalgados from './DocesSalgados'
 import Lanches from './Lanches'
+import Marmitas from './Marmitas'
 import Tortas from './Tortas'
 
 export default function AllItens() {
@@ -12,12 +13,16 @@ export default function AllItens() {
         <Lanches />
       </div>
       <div>
-        <h2 className='text-3xl font-bold uppercase bg-black text-yellow-400 p-2 rounded mb-5 text-center mx-2'>Bebidas</h2>
-        <Bebidas />
-      </div>
-      <div>
         <h2 className='text-3xl font-bold uppercase bg-black text-yellow-400 p-2 rounded mb-5 text-center mx-2'>Combos</h2>
         <Combos />
+      </div>
+      <div>
+        <h2 className='text-3xl font-bold uppercase bg-black text-yellow-400 p-2 rounded mb-5 text-center mx-2'>Marmitas</h2>
+        <Marmitas />
+      </div>
+      <div>
+        <h2 className='text-3xl font-bold uppercase bg-black text-yellow-400 p-2 rounded mb-5 text-center mx-2'>Bebidas</h2>
+        <Bebidas />
       </div>
       <div>
         <h2 className='text-3xl font-bold uppercase bg-black text-yellow-400 p-2 rounded mb-5 text-center mx-2'>Doces e Salgados</h2>
