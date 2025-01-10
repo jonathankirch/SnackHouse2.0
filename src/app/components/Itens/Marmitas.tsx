@@ -28,13 +28,23 @@ export default function Marmitas() {
       <div className="grid md:grid-cols-2 grid-cols-1 mx-2 gap-x-10 gap-y-5">
         <article className="grid grid-cols-3 md:h-52 h-40 shadow-md rounded-md group hover:shadow-xl transition border border-neutral-100 hover:bg-neutral-50">
           <NewItem
-            nome={`Marmita de ${marmitaDoDia.nome}`}
+            nome={`Marmita de ${marmitaDoDia.nome} Pequena`}
             descricao={marmitaDoDia.prato}
-            valor={marmitaDoDia.valor}
+            valor={marmitaDoDia.valorP}
             img={marmitaDoDia.img}
             quantidade={marmitaDoDia.quantidade}
           />
         </article>
+          <article className="grid grid-cols-3 md:h-52 h-40 shadow-md rounded-md group hover:shadow-xl transition border border-neutral-100 hover:bg-neutral-50">
+          <NewItem
+            nome={`Marmita de ${marmitaDoDia.nome} Grande`}
+            descricao={marmitaDoDia.prato}
+            valor={marmitaDoDia.valorG}
+            img={marmitaDoDia.img}
+            quantidade={marmitaDoDia.quantidade}
+          />
+
+          </article>
       </div>
     </section>
   )

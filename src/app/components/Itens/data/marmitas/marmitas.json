@@ -1,42 +1,48 @@
 [
   {
     "nome": "Domingo",
-    "valor": 0.00,
+    "valorP": 0.00,
+    "valorG": 0.00,
     "prato": "Sem marmitas",
     "img": "/img/marmita.jpg",
     "quantidade": 0
   },
   {
     "nome": "Segunda",
-    "valor": 18.00,
+    "valorP": 16.00,
+    "valorG": 20.00,
     "prato": "Arroz, Feijão, Moranga com batata e linguiça, Carne de panela com molho, Bolinho de batata, Salada",
     "img": "/img/marmita.jpg",
     "quantidade": 1
   },
   {
     "nome": "Terça",
-    "valor": 22.00,
+    "valorP": 16.00,
+    "valorG": 20.00,
     "prato": "Arroz, Feijão, Carne de porco, Massa, Purê de batata, Salada",
     "img": "/img/marmita.jpg",
     "quantidade": 1
   },
   {
     "nome": "Quarta",
-    "valor": 20.00,
+    "valorP": 16.00,
+    "valorG": 20.00,
     "prato": "Arroz, Feijão, Bife, Batata frita, Ovo frito, Salada",
     "img": "/img/marmita.jpg",
     "quantidade": 1
   },
   {
     "nome": "Quinta",
-    "valor": 25.00,
+    "valorP": 16.00,
+    "valorG": 20.00,
     "prato": "Arroz, Feijão, Lasanha de frango, Batata doce, Pastel, Salada",
     "img": "/img/marmita.jpg",
     "quantidade": 1
   },
   {
     "nome": "Sexta",
-    "valor": 23.00,
+    "valorP": 16.00,
+    "valorG": 20.00,
     "prato": "Arroz, Feijão, Frango assado, Massa, Polenta frita, Salada",
     "img": "/img/marmita.jpg",
     "quantidade": 1
