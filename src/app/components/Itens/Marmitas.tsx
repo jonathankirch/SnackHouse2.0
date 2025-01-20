@@ -1,23 +1,33 @@
 import NewItem from './NewItem'
 import marmitas from './data/marmitas/marmitas.json'
-import marmitasTerca from './data/marmitas/marmitasTerca.json'
+// import marmitasTerca from './data/marmitas/marmitasTerca.json'
 
 export default function Marmitas() {
   const data = new Date()
   const dia = data.getDay()
   const hora = data.getHours()
-  const semana = Math.ceil(data.getDate() / 7)
+  // const semana = Math.ceil(data.getDate() / 7)
 
   // Função para gerar a marmita do dia com base no dia e hora
+  // function gerarMarmitaDoDia() {
+  //   if ((dia === 5 && hora >= 18) || dia === 6 || dia === 0) {
+  //     return marmitas[1]  // Exibir marmita de segunda se for sexta à noite, sábado ou domingo
+  //   } else if ((dia === 1 && hora >= 18 ) || ( dia === 2 && hora < 18 )) {
+  //     return semana % 2 === 0 ? marmitasTerca[0] : marmitasTerca[1]
+  //   } else if (hora >= 18) {
+  //     return marmitas[dia + 1]  // Próximo dia, se a hora for depois das 18h
+  //   } else {
+  //     return marmitas[dia]  // Marmita do dia atual
+  //   }
+  // }
+
   function gerarMarmitaDoDia() {
-    if ((dia === 5 && hora >= 18) || dia === 6 || dia === 0) {
-      return marmitas[1]  // Exibir marmita de segunda se for sexta à noite, sábado ou domingo
-    } else if ((dia === 1 && hora >= 18 ) || ( dia === 2 && hora < 18 )) {
-      return semana % 2 === 0 ? marmitasTerca[0] : marmitasTerca[1]
-    } else if (hora >= 18) {
-      return marmitas[dia + 1]  // Próximo dia, se a hora for depois das 18h
+    if ( (dia === 5 && hora >= 18) || dia === 6 || dia === 0){
+      return marmitas[1]
+    } else if ( hora >= 18 ) {
+      return marmitas[dia + 1]
     } else {
-      return marmitas[dia]  // Marmita do dia atual
+      return marmitas[dia]
     }
   }
 
